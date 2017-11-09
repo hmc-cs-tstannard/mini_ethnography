@@ -250,7 +250,7 @@
             <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
         </div>
-       <div><button id="stall1" type="button" value="0" onclick="addOne('stall1');">
+       <div><button id="stall1" type="button" value=0 onclick="addOne('stall1');">
             Stall 1 
           </button>
           </div>
@@ -286,7 +286,7 @@
     <script> 
       function addOne(name)
       {
-         document.getElementById(name).value = pareseInt(document.getElementById(name).value) + 1;
+         document.getElementById(name).value = document.getElementById(name).value + 1;
          document.getElementById(name).innerHTML = document.getElementById(name).value
       }
     </script>
